@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+    table,
+    th,
+    td {
+      border: 2px solid #282627;
+    }
+    table {
+      border-spacing: 4px;
+      background-color: #191919;
+    }
+    td {
+      width: 30px;
+      height: 80px;
+      text-align: center;
+      font-size: 25px;
+      cursor: pointer;
+      color: white;
+    }
+    .input {
+      text-align: right;
+      padding: 0 10px;
+    }
+    div {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #413f42;
+    }
+    .btnColor {
+      background-color: #262425;
+    }
+  </style>
+  <body>
+    <div>
+      <table border="1" height="400px" width="350px">
+        <tr>
+          <td colspan="4" class="input">0</td>
+        </tr>
+        <tr>
+          <td style="background-color: #ad383e;">MC</td>
+          <td class="btnColor">M+</td>
+          <td class="btnColor">/</td>
+          <td class="btnColor">X</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td class="btnColor">-</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td class="btnColor">+</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td rowspan="2" style="background-color: #f7662f;">=</td>
+        </tr>
+        <tr>
+          <td colspan="2">0</td>
+          <td>.</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
